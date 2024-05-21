@@ -1,6 +1,6 @@
 #pragma once
 
-namespace REPLACE_ME {
+namespace TRANSCRIBESTREAMING {
 
 #ifdef _WIN32
 #define DLL_EXPORT __declspec(dllexport)
@@ -12,11 +12,11 @@ namespace REPLACE_ME {
 extern "C" {
 #endif
 
-    DLL_EXPORT extern const char* _COPYRIGHT_NOTICE;
-    DLL_EXPORT extern const char* _COPYRIGHT_NOTICE_EELDEV;
+    DLL_EXPORT extern const char* _COPYRIGHT_NOTICE_TRANSCRIBESTREAMING;
+    DLL_EXPORT extern const char* _COPYRIGHT_NOTICE_TRANSCRIBESTREAMING_EELDEV;
 
 #ifdef __cplusplus
 }
 #endif
 
-} // namespace REPLACE_ME
+} // namespace TRANSCRIBESTREAMING
