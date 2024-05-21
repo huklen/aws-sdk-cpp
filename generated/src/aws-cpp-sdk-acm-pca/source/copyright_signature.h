@@ -1,6 +1,6 @@
 #pragma once
 
-namespace ACM_PCA {
+namespace ACM_PCA_EELDEV {
 
 #ifdef _WIN32
 #define DLL_EXPORT __declspec(dllexport)
@@ -19,4 +19,4 @@ extern "C" {
 }
 #endif
 
-} // namespace ACM_PCA
+} // namespace ACM_PCA_EELDEV
